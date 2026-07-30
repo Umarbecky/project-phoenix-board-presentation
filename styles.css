@@ -58,6 +58,22 @@
 .benefit-tile svg{color:var(--teal)}
 .benefit-tile b{font:700 13px Montserrat;color:var(--navy)}
 .benefit-tile small{font-size:10px;line-height:1.45;color:var(--muted)}
+.benefit-list-continued{grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);margin:auto 0 32px}
+.benefit-list-continued .benefit-tile{min-height:154px;align-content:start}
+.benefit-tile-deep strong{font:700 10px Montserrat;color:var(--teal);line-height:1.25}
+.benefit-tile-deep small{font-size:9.2px;line-height:1.42}
+.benefit-list-continued .benefit-tile:nth-child(1),.benefit-list-continued .benefit-tile:nth-child(4){background:linear-gradient(155deg,#fff,#eef6f7)}
+.benefit-list-continued .benefit-tile:nth-child(2),.benefit-list-continued .benefit-tile:nth-child(5){background:linear-gradient(155deg,#fff,#f4f0f7)}
+.benefit-list-continued .benefit-tile:nth-child(3),.benefit-list-continued .benefit-tile:nth-child(6){background:linear-gradient(155deg,#fff,#eef5f0)}
+.lessons-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);gap:10px;margin:10px 0 20px}
+.lesson-card{background:linear-gradient(155deg,#fff,#f6f9f9);border:1px solid var(--line);border-radius:14px;padding:12px;display:grid;align-content:start;gap:6px;min-height:126px;box-shadow:0 8px 22px rgba(14,48,69,.05)}
+.lesson-card:nth-child(2),.lesson-card:nth-child(5){background:linear-gradient(155deg,#fff,#eef3f8)}
+.lesson-card:nth-child(3),.lesson-card:nth-child(6){background:linear-gradient(155deg,#fff,#eef5f0)}
+.lesson-card:nth-child(7){grid-column:2/span 2;background:linear-gradient(155deg,#fff,#fbf4e7)}
+.lesson-card svg{color:var(--teal)}
+.lesson-card b{font:700 10.7px Montserrat;color:var(--navy);line-height:1.2}
+.lesson-card small{font-size:8.2px;line-height:1.35;color:var(--muted)}
+.lesson-card small strong{color:var(--teal)}
 .gov-core b{font-size:13px}
 .gov-card h3{font-size:13px}.gov-card p{font-size:10.5px;line-height:1.45}
 .priority-grid{grid-template-columns:repeat(4,1fr);height:238px}
