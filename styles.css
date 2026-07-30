@@ -35,3 +35,31 @@
 .close-wrap h2{font-size:clamp(37px,4vw,58px);line-height:1.04}.close-wrap>p{font-size:15px;line-height:1.55}.closing-steps{margin-top:4px}
 @media(max-width:1100px){.slide h2{font-size:clamp(25px,3vw,38px)}.capability-grid,.priority-grid{gap:8px}.vcard,.priority{padding:13px}.vcard h3,.priority h3{font-size:12px}.vcard p,.priority p{font-size:9px}}
 .capability-grid{height:248px;flex:none;margin:auto 0}.capability-grid .vcard{min-height:0;height:248px}.capability-grid .vcard p{margin:13px 0 0}.priority-grid{height:248px;flex:none;margin:auto 0}.priority{min-height:0;height:248px}.priority p{margin:13px 0 0}
+.why-expanded{grid-template-columns:1.22fr 110px .86fr}
+.why-expanded .before-panel{height:318px;grid-template-columns:repeat(2,1fr);padding:18px;gap:8px}
+.why-expanded .pain{padding:10px 11px;font-size:10.5px;gap:6px;align-content:start}
+.why-expanded .pain svg{width:20px;height:20px}
+.vision-map{height:392px}
+.vision-node{width:250px;padding:12px;align-items:flex-start}
+.vision-node b{display:block;font:700 11px Montserrat;color:#fff;margin-bottom:4px}
+.vision-node small{display:block;font-size:9.5px;line-height:1.35;color:#cfe0e5}
+.vn-0{left:0;top:12px}.vn-1{right:0;top:12px}.vn-2{left:0;top:150px}.vn-3{right:0;top:150px}.vn-4{left:0;bottom:12px}.vn-5{right:0;bottom:12px}
+.vision-core{width:180px;height:140px}
+.capability-grid{grid-template-columns:repeat(6,1fr);height:244px}
+.capability-grid .vcard{height:244px;padding:14px}
+.capability-grid .vicon{width:38px;height:38px;margin-bottom:14px}
+.capability-grid .vcard h3{font-size:13px}
+.capability-grid .vcard p{font-size:9.5px;line-height:1.45}
+.benefit-list{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);gap:13px;margin:auto 0 34px}
+.benefit-tile{background:linear-gradient(155deg,#fff,#f4f8f8);border:1px solid var(--line);border-radius:15px;padding:18px;min-height:128px;display:grid;align-content:center;gap:9px;box-shadow:0 8px 24px rgba(14,48,69,.05)}
+.benefit-tile:nth-child(3),.benefit-tile:nth-child(4){background:linear-gradient(155deg,#fff,#eef5f0)}
+.benefit-tile:nth-child(5),.benefit-tile:nth-child(6){background:linear-gradient(155deg,#fff,#eef3f8)}
+.benefit-tile:nth-child(7){grid-column:2/span 2;background:linear-gradient(155deg,#fff,#fbf4e7)}
+.benefit-tile svg{color:var(--teal)}
+.benefit-tile b{font:700 13px Montserrat;color:var(--navy)}
+.benefit-tile small{font-size:10px;line-height:1.45;color:var(--muted)}
+.gov-core b{font-size:13px}
+.gov-card h3{font-size:13px}.gov-card p{font-size:10.5px;line-height:1.45}
+.priority-grid{grid-template-columns:repeat(4,1fr);height:238px}
+.priority{height:238px}
+.scope-table{grid-template-columns:1fr 1fr}
