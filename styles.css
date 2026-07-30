@@ -24,6 +24,12 @@
 .priority-grid{grid-template-columns:repeat(5,1fr);grid-template-rows:1fr;gap:12px;margin:38px 0 52px;flex:1;align-items:stretch}.priority{grid-column:auto!important;min-height:205px;padding:18px;display:flex;flex-direction:column}.priority h3{font-size:14px;line-height:1.25}.priority p{margin-top:auto;font-size:9.5px;line-height:1.5}.priority:nth-child(1){background:linear-gradient(155deg,#fff,#eaf6f5)}.priority:nth-child(2){background:linear-gradient(155deg,#fff,#eef3f8)}.priority:nth-child(3){background:linear-gradient(155deg,#fff,#f4f0f7)}.priority:nth-child(4){background:linear-gradient(155deg,#fff,#eef5ef)}.priority:nth-child(5){background:linear-gradient(155deg,#fff,#fbf3e6)}.priority:nth-child(3) svg{color:var(--violet)}.priority:nth-child(4) svg{color:var(--green)}.priority:nth-child(5) svg{color:var(--amber)}
 .progress-columns{flex:0 0 286px;margin:36px 0 46px;gap:14px}.progress-card{padding:18px 20px}.progress-card ul{line-height:1.85;margin-top:15px}.progress-card.achieved{background:linear-gradient(155deg,#fff,#eff6f1)}.progress-card.remaining{background:linear-gradient(155deg,#fff,#fbf5e9)}.progress-card.target{background:linear-gradient(155deg,#fff,#eef3f8)}.target strong{font-size:27px}
 .scope-table{margin-top:28px;gap:8px 12px}.scope-row{height:41px}.compliance-grid{margin:34px 0 20px}.compliance-card{background:linear-gradient(155deg,#fff,#eef5f0)}
+.cover-tags{gap:12px;flex-wrap:wrap}
+.cover-tags span{padding:12px 16px;font-size:12px;font-weight:700}
+.cover-tags svg{width:24px;height:24px}
+.pv-core{width:212px;height:212px}
+.pv-core svg{width:58px;height:58px}
+.sat{padding:12px 17px;font-size:11px}
 .journey-path{margin-top:34px}.journey-card:nth-child(1){background:linear-gradient(155deg,#fff,#eef5f0)}.journey-card:nth-child(2){background:linear-gradient(155deg,#fff,#edf6f6)}.journey-card:nth-child(3){background:linear-gradient(155deg,#fff,#fbf4e7)}
 .dash-main,.dash-side,.adoption-callout{box-shadow:0 8px 24px rgba(14,48,69,.05)}.board-question{background:linear-gradient(145deg,rgba(12,135,145,.55),rgba(109,106,152,.34))}.decision-item.selected{background:linear-gradient(90deg,rgba(98,140,114,.35),rgba(12,135,145,.22))}
 .close-wrap h2{font-size:clamp(37px,4vw,58px);line-height:1.04}.close-wrap>p{font-size:15px;line-height:1.55}.closing-steps{margin-top:4px}
