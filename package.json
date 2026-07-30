@@ -1,0 +1,10 @@
+{
+  "name": "project-phoenix-board-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "deploy": "npx vercel --prod"
+  }
+}
